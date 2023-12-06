@@ -74,7 +74,7 @@ header{
 
 .title{
     width: 100%;
-    height: calc(100% - 80px);
+    height: calc(100vh - 80px);
     position: relative;
     overflow: hidden;
     background-image: url(./title\ img.png);
@@ -82,8 +82,11 @@ header{
 }
 
 .title-img{
-    margin-top: 585px;
-    margin-left: 1200px;
+    position: relative;
+    top: 585px;
+    left: 1200px;
+    /* margin-top: 585px; */
+    /* margin-left: 1200px; */
 }
 
 .page1{
