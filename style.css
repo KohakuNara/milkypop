@@ -1,4 +1,6 @@
-html{}
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
@@ -6,6 +8,24 @@ body{
 
 li{
     list-style: none;
+}
+
+.design ul li {
+    width: 320px;
+    margin: 0 0 24px;
+}
+
+.design ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding: 0;
+}
+
+.design ul li p {
+    margin: 0;
+    color: #5d5855;
 }
 
 a{
@@ -83,7 +103,7 @@ header{
 
 .page1{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .coupon{
@@ -102,4 +122,35 @@ header{
     padding-top: 150px;
     width: 100%;
     height: 240px;
+    flex-wrap: wrap;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-img{
+    width: 450px;
+    height: 232px;
+    padding-top: 260px;
+    margin-right: 10px;
+}
+
+.about-text{
+    width: 450px;
+    padding-top: 220px;
+    font-size: 18px;
+    line-height: 2rem;
+    letter-spacing: -0.408px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.design{
+    width: 1000px;
+    margin: 0 auto;
 }
